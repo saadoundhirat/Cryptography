@@ -1,0 +1,8 @@
+import pytest
+
+from caesar_cipher import __version__
+
+
+def test_version():
+    assert __version__ == '0.1.0'
+
