@@ -46,16 +46,3 @@ def crack(encrypted):
         if percentage > 50:
             return text 
           
-if __name__ == "__main__":
-    print(encrypt('My name is Saadoun Dhirat', 10))
-    print(decrypt('Wi xkwo sc Ckknyex Nrsbkd', 10))
-    # print(encrypt('ABC', 15))
-    # print(encrypt('abc', 15))
-    # print(encrypt('abc',1))
-    # print(encrypt('abc',26))
-    # print(encrypt('aaa', 1))
-    # print(decrypt('zzz', 1))
-    # print(decrypt('KlM xY tu1',10))
-    # print(count_words('It was the best of times, it was the worst of times'))
-    # print(count_words('Nobody here'))
-    # print(encrypt('It was the best of times, it was the worst of times',26))
